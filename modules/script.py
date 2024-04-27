@@ -58,6 +58,7 @@ def decode(text):
     text = text.split("-")
     lets = []
     out = """"""
+    # add each two letters in lets list
     for i in range(len(text)):
         nums = len(text[i])
         for j in range(int(len(text[i])/2)):
@@ -65,9 +66,18 @@ def decode(text):
             lets.append(data)
             nums -= 2
         lets.append("-")
+    # convert lets list's values to letters
     for i in range(len(lets)):
         try: out += num_letters[lets[i]]
-        except KeyError: out += " "
+        except KeyError: 
+            if lets[i] == "-": out += " "
+            else: out += lets[i]
     return out
 def encode(text):
-    return "Test"
+    out = """"""
+    for letter in text:
+        if letter == " ": out += "-"
+        else: 
+            try: out += let_letters[letter.upper()]
+            except: out += letter
+    print(out)
