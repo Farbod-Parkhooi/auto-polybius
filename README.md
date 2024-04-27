@@ -1,2 +1,2 @@
-# auto-polybius
-Polybius is a model of encoding.
+# Polybius Square
+The Polybius Square is a cryptography method, (READ WIKIS FOR MORE INFORMATION)...
