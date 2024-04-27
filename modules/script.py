@@ -71,6 +71,21 @@ def decode(text):
         try: out += num_letters[lets[i]]
         except KeyError: 
             if lets[i] == "-": out += " "
+            elif lets[i] == "?": out += "?"
+            elif lets[i] == "!": out += "!"
+            elif lets[i] == "@": out += "@"
+            elif lets[i] == "#": out += "#"
+            elif lets[i] == "$": out += "$"
+            elif lets[i] == "%": out += "%"
+            elif lets[i] == "^": out += "^"
+            elif lets[i] == "&": out += "&"
+            elif lets[i] == "*": out += "*"
+            elif lets[i] == "(": out += "("
+            elif lets[i] == ")": out += ")"
+            elif lets[i] == "_": out += "_"
+            elif lets[i] == "=": out += "="
+            elif lets[i] == "`": out += "`"
+            elif lets[i] == "~": out += "~"
             else: out += lets[i]
     return out
 def encode(text):
