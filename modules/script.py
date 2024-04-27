@@ -90,6 +90,7 @@ def decode(text):
             elif lets[i] == "=": out += "="
             elif lets[i] == "`": out += "`"
             elif lets[i] == "~": out += "~"
+            elif lets[i] == ".": out += "."
             else: out += lets[i]
     return out
 def encode(text):
