@@ -77,11 +77,15 @@ def get_info():
         if dir == "d": 
             text = input(f"{Fore.WHITE}[{Fore.YELLOW}+{Fore.WHITE}] {Fore.GREEN}Write the text to decode: {reset}")
             out = script.decode(text)
-            print(out)
+            clear()
+            random_banner()
+            print(f"{Fore.GREEN}[{Fore.YELLOW}!{Fore.GREEN}] The Decoded Sentences Is: '{out}'")
         elif dir == "e":
             text = input(f"{Fore.WHITE}[{Fore.YELLOW}+{Fore.WHITE}] {Fore.GREEN}Write the text to encode: {reset}")
             out = script.encode(text)
-            print(out)
+            clear()
+            random_banner()
+            print(f"{Fore.GREEN}[{Fore.YELLOW}!{Fore.GREEN}] The Encoded Sentences Is: '{out}'")
         else:
             print("Invalid Input.")
     except KeyboardInterrupt: exit(f"\n\n {Fore.CYAN}Good Luck{reset} \n\n")
