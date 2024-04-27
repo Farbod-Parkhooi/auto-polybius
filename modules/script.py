@@ -69,3 +69,5 @@ def decode(text):
         try: out += num_letters[lets[i]]
         except KeyError: out += " "
     return out
+def encode(text):
+    return "Test"
