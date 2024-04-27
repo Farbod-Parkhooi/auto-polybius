@@ -1,5 +1,5 @@
 # Polybius Square
-The Polybius Square is a cryptography method, (read <a href="https://github.com/Unknow-per/auto-polybius/wiki/Polybius-Square">This</a> wiki to learn more)...
+The Polybius Square is a cryptography method, (read <a href="https://github.com/Unknow-per/auto-polybius/wiki/Polybius-Square">This</a> wiki or read the <a href="https://en.wikipedia.org/wiki/Polybius_square">Wikipedia</a> to learn more)...
 
 # Download and Use
 ```
