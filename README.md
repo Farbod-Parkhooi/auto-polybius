@@ -13,3 +13,7 @@ pip -r install requirements.txt
 python3 main.py
 
 ```
+
+# How to install <a href="https://github.com/Unknow-per/auto-polybius/tree/main/Library/src">auto_polybius library</a>
+
+First go to <a href="https://github.com/Unknow-per/auto-polybius/tree/main/Library/src">This link</a> and download <a href="https://github.com/Unknow-per/auto-polybius/blob/main/Library/src/auto_polybius.py">auto_polybius.py</a> to yout code and use.
