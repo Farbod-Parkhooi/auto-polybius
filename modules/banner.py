@@ -69,7 +69,7 @@ $$ |  $$ |      \$$$$$$  |         $$ |          $$$$$$  |                    $$
         \/                                 \/                                \/          \/  \/                \/                           \/ 
 """]
     clear()
-    rand = randint(0, (len(banners-1)))
+    rand = randint(0, (len(banners)-1))
     print(Fore.CYAN + banners[rand])
 def get_info():
     try:
