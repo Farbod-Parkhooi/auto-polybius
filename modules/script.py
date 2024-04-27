@@ -75,9 +75,10 @@ def decode(text):
     return out
 def encode(text):
     out = """"""
+    # convert letters to numbers
     for letter in text:
         if letter == " ": out += "-"
         else: 
             try: out += let_letters[letter.upper()]
             except: out += letter
-    print(out)
+    return out
