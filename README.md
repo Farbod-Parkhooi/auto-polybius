@@ -1,7 +1,7 @@
 # Polybius Square
 The Polybius Square is a cryptography method, (read <a href="https://github.com/Unknow-per/auto-polybius/wiki/Polybius-Square">This</a> wiki to learn more)...
 
-# Download
+# Download and Use
 ```
 
 git clone https://github.com/Unknow-per/auto-polybius.git
