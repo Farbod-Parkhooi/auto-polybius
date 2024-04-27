@@ -1,3 +1,8 @@
+"""
+https://www.github.com/Unknow-per/auto-polybius
+Code wrote by Unknown Person (https://www.github.com/unknow-per || https://www.github.com/tik-ten)
+For suport please star this repo :)
+"""
 from modules import script
 from colorama import init, Fore, Style
 from random import randint

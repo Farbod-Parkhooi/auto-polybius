@@ -1,3 +1,8 @@
+"""
+https://www.github.com/Unknow-per/auto-polybius
+Code wrote by Unknown Person (https://www.github.com/unknow-per || https://www.github.com/tik-ten)
+For suport please star this repo :)
+"""
 let_letters = {
     "A":"11",
     "B":"21",
@@ -53,7 +58,6 @@ num_letters = {
     "45":"Y",
     "55":"Z"
 }
-
 def decode(text):
     text = text.split("-")
     lets = []
