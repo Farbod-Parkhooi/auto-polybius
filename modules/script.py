@@ -71,27 +71,9 @@ def decode(text):
             nums -= 2
         lets.append("-")
     # convert lets list's values to letters
-    for i in range(len(lets)):
-        try: out += num_letters[lets[i]]
-        except KeyError: 
-            if lets[i] == "-": out += " "
-            elif lets[i] == "?": out += "?"
-            elif lets[i] == "!": out += "!"
-            elif lets[i] == "@": out += "@"
-            elif lets[i] == "#": out += "#"
-            elif lets[i] == "$": out += "$"
-            elif lets[i] == "%": out += "%"
-            elif lets[i] == "^": out += "^"
-            elif lets[i] == "&": out += "&"
-            elif lets[i] == "*": out += "*"
-            elif lets[i] == "(": out += "("
-            elif lets[i] == ")": out += ")"
-            elif lets[i] == "_": out += "_"
-            elif lets[i] == "=": out += "="
-            elif lets[i] == "`": out += "`"
-            elif lets[i] == "~": out += "~"
-            elif lets[i] == ".": out += "."
-            else: out += lets[i]
+    if lets[-1] == "-": lets.pop()
+    else: pass
+    for i in range(len(lets)): out += num_letters[lets[i]]
     return out
 def encode(text):
     out = """"""
