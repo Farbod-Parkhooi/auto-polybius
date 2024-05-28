@@ -73,7 +73,9 @@ def decode(text):
     # convert lets list's values to letters
     if lets[-1] == "-": lets.pop()
     else: pass
-    for i in range(len(lets)): out += num_letters[lets[i]]
+    for i in range(len(lets)): 
+        try: out += num_letters[lets[i]]
+        except: out += lets[i]
     return out
 def encode(text):
     out = """"""
